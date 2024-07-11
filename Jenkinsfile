@@ -1,7 +1,7 @@
 // Jenkins pipleine as a code 
 pipeline{
     agent{
-        label "node"
+        label "k8s-slave"
     }
     stages{
         stage("A"){
